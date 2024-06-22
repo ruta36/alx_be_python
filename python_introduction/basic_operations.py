@@ -9,4 +9,4 @@ mul=number1*number2
 # Print the results in the specified format
 print(f"Addition of {number1} and {number2} is {add}")
 print(f"Subtraction of {number1} and {number2} is {sub}")
-print(f"Multiplication of {number1} and {number2} is {muls}")
+print(f"Multiplication of {number1} and {number2} is {mul}")
