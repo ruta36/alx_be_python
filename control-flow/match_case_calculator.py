@@ -10,14 +10,14 @@ match operator :
         result = first_num - second_num
         print(f"The result is {result:.3f}.")
     case "*" :
-        result = first_num * secomd_num
+        result = first_num * second_num
         print(f"The result is {result:.3f}.")
     case "/" :
         if second_num == 0 :
             print("Cannot divide by zero")
         else :
             result = first_num / second_num
-            print("The result is {result:.3f}.")
+            print(f"The result is {result:.3f}.")
     case _ :
         print("The operator you enter does not exist.")
 
