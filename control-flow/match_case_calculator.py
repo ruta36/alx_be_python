@@ -17,7 +17,7 @@ match operator :
             print("Cannot divide by zero")
         else :
             result = first_num / second_num
-            print("The result is {result:.3f}.")
+            print(f"The result is {result:.3f}.")
     case _ :
         print("The operator you enter does not exist.")
 
